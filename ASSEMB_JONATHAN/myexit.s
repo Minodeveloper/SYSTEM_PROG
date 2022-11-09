@@ -5,5 +5,7 @@
 
 _start:
 	movq $60, %rax
-	movq $5, %rdi
+	movq $3, %rdi
+	addq $1, %rdi
+	incq %rdi
 	syscall
