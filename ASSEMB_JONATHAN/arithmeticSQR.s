@@ -1,6 +1,7 @@
 .global _start
 .section .text
 _start:
+	
 	movq $10, %rax
 	mulq %rax
 
