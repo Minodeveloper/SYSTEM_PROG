@@ -2,14 +2,17 @@
 .section .text
 
 _start:
-#	movq $0b01111111111111111111111111111111, %rbx
-	movq $0x12A05F200, %rbx
+	movq $9, %rbx #number2
+	movq $5, %rcx  #number1
+	movq $0, %rdx
 loop:
+	addq %rcx, %rdx
+	
 	decq %rbx
 	cmpq $0, %rbx
 	jne loop
 
-	movq $8, %rdi
+	movq %rdx, %rdi
 	movq $60, %rax
 	syscall
 	
