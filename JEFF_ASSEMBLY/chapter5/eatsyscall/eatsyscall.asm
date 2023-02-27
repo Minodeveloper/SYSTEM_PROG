@@ -10,7 +10,6 @@
 ;    nasm -f elf -g -F stabs eatsyscall.asm
 ;    ld -o eatsyscall eatsyscall.o
 ;
-
 SECTION .data			; Section containing initialised data
 	
 	EatMsg: db "Eat at Joe's!",10
