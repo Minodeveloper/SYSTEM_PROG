@@ -6,7 +6,8 @@ section .text
 _start:
 	nop
 ; Put your experiments between the two nops...
-
+	
+	mov edx,Snippet
 	mov ebx,Snippet
 	mov eax,8
 DoMore:	add byte [ebx],32
