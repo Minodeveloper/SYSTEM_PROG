@@ -7,7 +7,13 @@ section .text
 _start:
 	nop
 ; Put your experiments between the two nops...
-
+	
+	mov ax, 0x67fe
+	mov ax, 0x0100
+	xchg ah, al 
+	mov bx,ax
+	mov cl,bh
+	mov ch,bl
 	mov eax,42h
 	add eax,[TestValue]
 
