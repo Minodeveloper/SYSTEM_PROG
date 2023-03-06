@@ -7,6 +7,10 @@ SECTION .data
 ;sent	dq "abcd",10
 name 	db "madhuresh",0
 
+number	dq 0xf6fabcd45734ad6a
+
+multi	db 0x4
+
 SECTION .bss
 
 SECTION .text
@@ -16,12 +20,11 @@ global _start
 
 _start:
 	nop
-	mov r8, name
+	
+	mov al, 0x4
+	mul byte  [multi]
 
-	mov rax, name
-	inc byte [name]
-	;mov rbx, [roll]
-	;mov rcx, [name]
-	;mov rdx, [sent]
+
+
 	nop
 
