@@ -18,10 +18,11 @@ _start:
 	mov	rsi,0
 
 sumLoop:
+;	inc	ecx  				;infinite loop bug
 	mov	eax,dword[lst + (rsi*4)]
 	add	dword[sum],eax
 	inc	rsi
-	loop	sumLoop
+	loop	sumLoop				;loop decreases rcx by 1 when executed
 
 last:	
 	mov	rax,SYS_EXIT
