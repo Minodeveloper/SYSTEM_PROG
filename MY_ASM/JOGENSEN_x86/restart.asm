@@ -15,3 +15,8 @@ _start:
 	mov	rdx, 0x4321fedc	;command
 	mov	r10,0		;don't know
 	syscall
+
+	mov	rax,60
+	xor	rbx,rbx
+	xor	rdi,rdi
+	syscall
