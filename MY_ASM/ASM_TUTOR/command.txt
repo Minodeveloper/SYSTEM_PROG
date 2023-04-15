@@ -1,0 +1,2 @@
+nasm -f elf32 lesson_XX.asm
+ld -o lesson_XX -m elf_i386 lesson_XX.o
