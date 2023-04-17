@@ -34,6 +34,17 @@ sprint:
 	pop	edx
 	ret
 
+sprintLF:
+	call 	sprint
+	push	eax
+	mov	eax,0xa
+	push	eax
+	mov	eax,esp
+	call	sprint
+	pop	eax
+	pop	eax
+	ret
+
 quit:
 	mov	ebx,0
 	mov	eax,1
