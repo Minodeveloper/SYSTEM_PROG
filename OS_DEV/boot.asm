@@ -2,13 +2,13 @@
 
 
 boot:
-	mov	al,"d"
+	mov	al,"X"
 	mov	ah,0x0e
 	mov	bh,0x00
 	mov	bl,0x07
 
 	int	0x10
-	jmp	$
+	jmp	boot
 
 
 times 510-($-$$) db 0
