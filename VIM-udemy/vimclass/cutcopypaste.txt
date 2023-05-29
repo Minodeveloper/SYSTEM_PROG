@@ -1,32 +1,38 @@
-Cut this line and paste it after the line of hyphens.
 This is just some random text.
 --------------------------------------------------------------------------------
+Cut this line and paste it after the line of hyphens.
 
-This line should come after "The quick brown fox jumps over the lazy dog."
 The quick brown fox jumps over the lazy dog.
+This line should come after "The quick brown fox jumps over the lazy dog."
 
-One does not simply walk into the data center.
 
 Every good boy deserves fudge.
 
+One does not simply walk into the data center.
 Its gates are guarded by more than just computer operators.
 
+One does not simply walk into the data center.
 There are system administrators there that do not sleep.
 
-fi
+if
 
-badcfe
+abcdef
 
-to the beginning. Move this
+Move this to the beginning. 
 
-Can you dupe this?
+Can you dupe dupe this?
 
-Can you double dupe this?
+Can you double dupe double dupe this?
 
-Can you double dupe this, again?
+Can you double dupe double dupe this, again?
 
 Duplicate this entire line.
+Duplicate this entire line.
 
+In the works of Eco, a predominant concept is the distinction between opening
+and closing. Lacan suggests the use of the subcultural paradigm of expression to
+challenge hierarchy. Thus, the characteristic theme of la Fournier’s analysis of
+subcultural theory is the difference between class and society.
 In the works of Eco, a predominant concept is the distinction between opening
 and closing. Lacan suggests the use of the subcultural paradigm of expression to
 challenge hierarchy. Thus, the characteristic theme of la Fournier’s analysis of
