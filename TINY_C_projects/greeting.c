@@ -3,20 +3,22 @@
 int main(int argc, char *argv[])
 {
 	time_t now;
+
 	time(&now);
 
-	printf("The computer thinls it's %ld\n", now);
+	printf("%ld noow \n", now);
 
-	printf("%s\n", ctime(&now));
+	printf(time(&now));
 
-	if (argc < 2)
-	{
-		printf("Hello , you handsome beast !\n");
-	}
-	else
-	{
-		printf("Hello, %s !\n", argv[1]);
-	}
+//	printf("\t\tHELLO MASTER !\n");
 
+//	puts("");
+
+	
+
+
+	
 	return 0;
+
+	
 }
