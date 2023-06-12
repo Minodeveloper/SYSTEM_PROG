@@ -12,6 +12,7 @@ int main(int argc, char *argv[])
 
 	int hour = clock->tm_hour;
 
+	printf("\n");
 	printf(" \t\t");
 	if(hour < 6)
 	{
@@ -36,9 +37,16 @@ int main(int argc, char *argv[])
 	}
 
 	printf("\n");	
-	printf("\t\t%s \n", ctime(&now));
+//	printf("\t\t%s \n", ctime(&now));
 
+	char timeBuffer[64];
 
-		
+	
+	strftime(timeBuffer, 64,"%t%t It is %r%n%n",clock);	
+	printf("%s\n", timeBuffer);
+	strftime(timeBuffer, 64,"%t%t%A, %B %d, %Y%n%n",clock);	
+	
+	printf("%s\n", timeBuffer);
+
 	return 0;	
 }
