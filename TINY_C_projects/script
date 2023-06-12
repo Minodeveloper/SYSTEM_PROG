@@ -5,7 +5,7 @@ echo "**                                                  **"
 echo "**                                                  **"
 echo "**                                                  **"
 echo "**                                                  **"
-./greeting MINOSHI
+/home/bhanu/Desktop/SYSTEM_PROG/TINY_C_projects/greeting MINOSHI
 echo "**                                                  **"
 echo "**                                                  **"
 echo "**                                                  **"
